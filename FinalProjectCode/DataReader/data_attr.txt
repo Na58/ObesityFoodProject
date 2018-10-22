@@ -1,0 +1,42 @@
+/***Adults Obesity***/
+est_f_18yrs_+_obese_2014_15_asr_100: Estimated Number Of Females Aged 18 Years And Over Who Were Obese (Modelled Estimates)* 2014-15 ASR per 100
+
+est_f_18yrs_+_obese_2014_15_num: Estimated Number Of Females Aged 18 Years And Over Who Were Obese (Modelled Estimates)* 2014-15 Number
+
+est_f_18yrs_+_ovrwht_2014_15_asr_100: Estimated Number Of Females Aged 18 Years And Over Who Were Overweight (But Not Obese) (Modelled Estimates)* 2014-15 ASR per 100
+
+est_f_18yrs_+_ovrwht_2014_15_num: Estimated Number Of Females Aged 18 Years And Over Who Were Overweight (But Not Obese) (Modelled Estimates)* 2014-15 Number
+
+est_m_18yrs_+_obese_2014_15_asr_100: Estimated Number Of Males Aged 18 Years And Over Who Were Obese (Modelled Estimates)* 2014-15 ASR per 100
+
+est_m_18yrs_+_obese_2014_15_num: Estimated Number Of Males Aged 18 Years And Over Who Were Obese (Modelled Estimates)* 2014-15 Number
+
+est_m_18yrs_+_ovrwht_2014_15_asr_100: Estimated Number Of Males Aged 18 Years And Over Who Were Overweight (But Not Obese) (Modelled Estimates)* 2014-15 ASR per 100
+
+est_ppl_18yrs_+_obese_2014_15_asr_100: Estimated Number Of People Aged 18 Years And Over Who Were Obese (Modelled Estimates) 2014-15 ASR per 100
+
+est_ppl_18yrs_+_ovrwht_2014_15_asr_100: Estimated Number Of People Aged 18 Years And Over Who Were Overweight (But Not Obese) (Modelled Estimates) 2014-15 ASR per 100
+
+
+/***Child Obesity***/
+est_chld_2_17_yrs_obese_2014_15_asr_100: Estimated Number Of Children Aged 2-17 Years Who Were Obese (Modelled Estimates) 2014-15 ASR per 100
+
+est_chld_2_17_yrs_obese_2014_15_num: Estimated Number Of Children Aged 2-17 Years Who Were Obese (Modelled Estimates) 2014-15 Number
+
+est_chld_2_17_yrs_ovrwht_2014_15_asr_100: Estimated Number Of Children Aged 2-17 Years Who Were Overweight (But Not Obese) (Modelled Estimates) 2014-15 ASR per 100
+
+est_chld_2_17_yrs_ovrwht_2014_15_num: Estimated Number Of Children Aged 2-17 Years Who Were Overweight (But Not Obese) (Modelled Estimates) 2014-15 Number
+
+est_f_2_17_yrs_obese_2014_15_asr_100: Estimated Number Of Females Aged 2-17 Years Who Were Obese (Modelled Estimates)* 2014-15 ASR per 100
+
+est_f_2_17_yrs_ovrwht_2014_15_asr_100: Estimated Number Of Females Aged 2-17 Years Who Were Overweight (But Not Obese) (Modelled Estimates)* 2014-15 ASR per 100
+
+est_m_2_17_yrs_obese_2014_15_asr_100: Estimated Number Of Males Aged 2-17 Years Who Were Obese (Modelled Estimates)* 2014-15 ASR per 100
+
+est_m_2_17_yrs_obese_2014_15_num: Estimated Number Of Males Aged 2-17 Years Who Were Obese (Modelled Estimates)* 2014-15 Number
+
+est_m_2_17_yrs_ovrwht_2014_15_asr_100: Estimated Number Of Males Aged 2-17 Years Who Were Overweight (But Not Obese) (Modelled Estimates)* 2014-15 ASR per 100
+
+est_m_2_17_yrs_ovrwht_2014_15_num: Estimated Number Of Males Aged 2-17 Years Who Were Overweight (But Not Obese) (Modelled Estimates)* 2014-15 Number
+
+

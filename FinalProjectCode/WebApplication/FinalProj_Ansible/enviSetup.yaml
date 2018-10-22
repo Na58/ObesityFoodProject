@@ -1,0 +1,50 @@
+---
+
+- hosts: MyCloud
+  sudo: yes
+
+  tasks:
+
+    - name: apt-get update
+      raw: apt-get update
+
+    - name: apt update
+      raw: apt update
+      
+    - name: Install vim and Rabbit MQ
+      apt: 
+        name: "{{ item }}" 
+        state: latest
+      with_items:
+        - vim
+
+
+
+    - name: Setup Python envi
+      apt: 
+        name: "{{item}}"
+        state: latest
+      with_items:
+        - python-pip
+        - python-dev
+        - build-essential
+
+    - name: Install Data Packages
+      pip3: 
+        name: "{{item}}"
+        state: latest
+      with_items:
+        - flask
+        - gunicorn
+        - sqlalchemy
+        - pandas
+
+
+
+
+
+
+
+    
+
+...

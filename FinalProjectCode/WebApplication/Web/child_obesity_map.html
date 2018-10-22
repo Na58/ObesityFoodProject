@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <title>Child Obesity</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    /* Always set the map height explicitly to define the size of the div
+     * element that contains the map. */
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+	<div class="main">
+    <div id="nav_bar" class="nav">
+      <ul>
+        <li>
+          <a href="/index.html"><span>Home</span></a>
+        </li>
+        <li>
+          <a href="/statistics.html"><span>Statistics</span></a>
+        </li>
+        <li>
+          <a href="/adult_obesity_map.html"><span>Adult Obesity Map</span></a>
+        </li>
+        <li>
+          <a href="/child_obesity_map.html"><span>Child Obesity Map</span></a>
+        </li>
+        <li>
+          <a href="/fastfood_map.html"><span>Fastfood Map</span></a>
+        </li>
+      </ul>
+
+    </div>
+    <div class="section">
+      <div id="map"></div>
+
+      <div id="info-box">
+        <ul>
+          <li>
+            <p>No. of Obesity</p>
+          </li>
+        <li>
+          <p class="dot" id="op1"></p>
+          <p>20 - 30</p>
+        </li>
+        <li>
+          <p class="dot" id="op2"></p>
+          <p>30 - 40</p>
+        </li>
+        <li>
+          <p class="dot" id="op3"></p>
+          <p>40 - 50</p>
+        </li>
+        <li>
+          <p class="dot" id="op4"></p>
+          <p>Above 50</p>
+        </li>
+      </ul>
+      </div>
+      <div id="tooltiptext"></div>
+
+
+    </div>
+
+	</div>
+  <script src="js/jquery.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQzqUTTat8GASWgSS8LdKNhAM9AShtaP8&callback=initMap"
+    async defer></script>
+  <script src="js/child_obesity.js"></script>
+</body>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <title>Statistics</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div class="main">
+    <div id="nav_bar" class="nav">
+      <ul>
+        <li>
+          <a href="/index.html"><span>Home</span></a>
+        </li>
+        <li>
+          <a href="/statistics.html"><span>Statistics</span></a>
+        </li>
+        <li>
+          <a href="/adult_obesity_map.html"><span>Adult Obesity Map</span></a>
+        </li>
+        <li>
+          <a href="/child_obesity_map.html"><span>Child Obesity Map</span></a>
+        </li>
+        <li>
+          <a href="/fastfood_map.html"><span>Fastfood Map</span></a>
+        </li>
+      </ul>
+
+    </div>
+    <div class="section">
+      <div class="chart">
+        <canvas class="chartdetail" id="chart1" ></canvas>
+      </div>
+      <div class="control">
+        <button id="adult-btn"> Adult</button>
+        <button id="child-btn"> Child</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="chart">
+        <canvas class="chartdetail" id="chart2" ></canvas>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="chart">
+        <canvas class="chartdetail" id="chart3"></canvas>
+      </div>
+    </div>
+	</div>
+  <script src="js/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+  <script src="js/statistics.js"></script>
+</body>

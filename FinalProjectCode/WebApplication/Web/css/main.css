@@ -1,0 +1,143 @@
+.main {
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+.nav{
+  overflow:hidden;
+  padding:10px 0px;
+  background-color: black;
+
+}
+.nav ul {
+  margin-block-start:0px;
+
+}
+.nav ul li a span {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+}
+.nav ul li{
+  width:20%;
+  text-align:center;
+  list-style:none;
+  display:block;
+  float:left;
+  vertical-align: top;
+
+}
+.section{
+  width: auto;
+  height: auto;
+}
+
+#map {
+  height: 717px;
+}
+
+#myVideo {
+
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: grey;
+    width: 100%;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.section .chart{
+  height: auto;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.section .chart .chartdetail {
+  height: 590px;
+}
+
+.section .control {
+  margin-left: 50px;
+}
+
+.section ul {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding-inline-end: 0px;
+  padding-inline-start: 3px;
+  font-size: 12px;
+  list-style-type: none;
+}
+.section p {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-left: 5px;
+}
+
+.section #tooltiptext {
+  background-color: white;
+  border: 1px solid grey;
+  top: 110px;
+  height: auto;
+  width: 120px;
+  padding: 5px;
+  position: absolute;
+  left: 30px;
+  opacity: 0.8;
+  overflow: visible;
+
+}
+
+.section #info-box {
+  background-color: white;
+  border: 1px solid grey;
+  bottom: 110px;
+  height: 60px;
+  width: 120px;
+  padding: 5px;
+  position: relative;
+  left: 30px;
+  opacity: 1;
+  float: left;
+}
+.section #info-box .dot {
+  background-color: red;
+  margin-right: 8px;
+  margin-top: 2px;
+  opacity: 0.2;
+  height: 8px;
+  width: 8px;
+  float: left;
+}
+
+.section #info-box #op2 {
+  opacity: 0.2;
+}
+
+.section #info-box #op2 {
+  opacity: 0.4;
+}
+
+.section #info-box #op3 {
+  opacity: 0.6;
+}
+
+.section #info-box #op4 {
+  opacity: 0.8;
+}
